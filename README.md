@@ -36,7 +36,7 @@ scp deploy adriaan@server.adriaan.company:huiscrawler/deploy
 ssh adriaan@server.adriaan.company
 docker login ghcr.io -u USERNAME
 ```
-
+  
 After that you can deploy normally from ci.
 
 ### Change env variables or compose file
@@ -48,3 +48,5 @@ scp .env.production adriaan@server.adriaan.company:huiscrawler/.env
 ```
 
 Then do a regular deploy or run `docker-compose up -d` on the server.
+
+Test commit
